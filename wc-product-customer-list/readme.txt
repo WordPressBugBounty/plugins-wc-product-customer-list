@@ -1,9 +1,9 @@
 === Product Customer List for WooCommerce ===
-Contributors: kokomoweb, freemius
+Contributors: ggwicz, kokomoweb, freemius
 Tags: woocommerce, customer list, who bought, admin order list, product-specific, export customers to csv, email customers, customer list, customer, list, print, front-end, tickets, shows, courses, customers, shortcode
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 3.1.9
+Stable tag: 3.1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Display a list of customers who bought a specific product at the bottom of the p
 
 == Description ==
 
-A plugin that simply displays a list of customers who bought a specific product at the bottom of the WooCommerce product edit page or as a shortcode. You can also send an email to the list of customers, print the list or export it as a CSV, PDF or Excel file. Requires WooCommerce 2.2+ to be installed and activated. 
+A plugin that simply displays a list of customers who bought a specific product at the bottom of the WooCommerce product edit page or as a shortcode. You can also send an email to the list of customers, print the list or export it as a CSV, PDF or Excel file. Requires WooCommerce 5.0+ to be installed and activated.
 
 Great for sending out e-mails or getting a list of customers for courses, for shows or for product recalls.
 
@@ -108,6 +108,10 @@ Please see documentation [here](https://www.kokomoweb.com/docs/).
 2. The settings page.
 
 == Changelog =
+
+= 3.1.10 =
+* Added new maintainer (ggwicz) to Contributors
+* Corrected stale "Requires WooCommerce 2.2+" text in description to match the plugin header's WooCommerce 5.0+ minimum
 
 = 3.1.9 =
 * Confirmed compatibility with WordPress 6.9
